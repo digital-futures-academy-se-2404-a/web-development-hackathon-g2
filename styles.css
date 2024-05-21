@@ -4,13 +4,27 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+header {
+    font-weight: 700;
+    font-size: large;
+    background-color: #0a1c3a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.active {
+    font-weight: 900;
+}
+
 footer {
     background-color: #0a1c3a;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
@@ -20,16 +34,6 @@ body {
     color: #fff;
 }
 
-header {
-    font-weight: bold;
-    font-size: large;
-    background-color:#0a1c3a ;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
-    margin-bottom: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
 header img {
     max-width: 100%;
     filter: invert(100%);
@@ -56,4 +60,25 @@ header img {
     width: 30px;
     height: 30px;
     margin: 0 10px;
+}
+
+
+.input-error {
+    height: 15px;
+    color: red;
+}
+
+.img-div {
+    margin: 0.5rem;
+    height: 25vh;
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.error-active{
+    border: 1px solid red;
 }
