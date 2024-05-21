@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 footer {
-    background-color: #333;
+    background-color: #0a1c3a;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -8,10 +14,16 @@ footer {
     width: 100%;
 }
 
+header {
+    font-weight: bold;
+    font-size: large;
+    background-color:#0a1c3a ;
+}
 header img {
     max-width: 100%;
     filter: invert(100%);
 }
+
 
 
 .navbar-brand {
