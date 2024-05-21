@@ -1,0 +1,19 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header img {
+    max-width: 100%;
+    filter: invert(100%);
+}
+
+
+.navbar-brand {
+    max-width: 2.5rem;
+}
