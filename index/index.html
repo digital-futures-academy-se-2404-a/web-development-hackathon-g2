@@ -9,6 +9,32 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <style>
+      .carousel-wrapper {
+        height: 24rem;
+        margin-bottom: 12rem;
+      }
+
+      .carousel-wrapper * {
+        max-height: 100%;
+      }
+
+      .fixed-size-img {
+        max-height: 100%;
+        object-fit: cover;
+        width: auto;
+      }
+
+      .row-image-container {
+        height: 12rem;
+        margin-bottom: 8rem;
+      }
+      .row-image {
+        max-height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
     <title>Digital Futures Cinema</title>
   </head>
   <body>
@@ -19,13 +45,13 @@
       <section id="focus-area" class="container text-center">
         <div
           id="carouselExampleSlidesOnly"
-          class="carousel slide"
+          class="carousel slide carousel-wrapper"
           data-ride="carousel"
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-md-9 border">
+                <div class="col-md-9">
                   <img
                     class="d-block w-100 fixed-size-img"
                     src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/if-movie-poster.jpg"
@@ -33,7 +59,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-3 border d-flex align-items-center justify-content-center"
+                  class="col-md-3 d-flex align-items-center justify-content-center"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                   laudantium voluptatum nemo obcaecati, maxime autem, sit,
@@ -44,7 +70,7 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-9 border">
+                <div class="col-md-9">
                   <img
                     class="d-block w-100 fixed-size-img"
                     src="https://m.media-amazon.com/images/M/MV5BODMxNjAwNjY2Ml5BMl5BanBnXkFtZTgwNTQ1NDgwNjE@._V1_.jpg"
@@ -52,7 +78,7 @@
                   />
                 </div>
                 <div
-                  class="col-md-3 border d-flex align-items-center justify-content-center"
+                  class="col-md-3 d-flex align-items-center justify-content-center"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Fugiat at, ut, fugit laborum, tenetur quod obcaecati porro
@@ -63,15 +89,15 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-9 border">
+                <div class="col-md-9">
                   <img
                     class="d-block w-100 fixed-size-img"
-                    src="https://via.placeholder.com/800x400"
+                    src="https://assets-in.bmscdn.com/discovery-catalog/events/et00376330-lvlrzsvnlz-landscape.jpg"
                     alt="Third slide"
                   />
                 </div>
                 <div
-                  class="col-md-3 border d-flex align-items-center justify-content-center"
+                  class="col-md-3 d-flex align-items-center justify-content-center"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Itaque, in. Iste, consequuntur culpa iure pariatur aliquid
@@ -84,10 +110,10 @@
         </div>
         <div class="row">
           <!-- Row 1 -->
-          <div class="col-9">
+          <div class="col-9 row-image-container">
             <img
-              src="https://images.pexels.com/photos/806880/pexels-photo-806880.jpeg?auto=compress&cs=tinysrgb&w=300"
-              class="object-fit-contain"
+              src="https://images.pexels.com/photos/23932755/pexels-photo-23932755/free-photo-of-yellow-paper-cup-with-popcorn-on-a-cinema-seat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="row-image"
               alt="If movie poster"
             />
           </div>
@@ -98,7 +124,33 @@
             provident, obcaecati repellat commodi!
           </p>
           <!-- Row 2 -->
+          <p class="col-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+            consequuntur architecto quisquam omnis maxime error odit voluptatum
+            dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
+            provident, obcaecati repellat commodi!
+          </p>
+          <div class="col-9 row-image-container">
+            <img
+              src="https://images.pexels.com/photos/1182291/pexels-photo-1182291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="row-image"
+              alt="If movie poster"
+            />
+          </div>
           <!-- Row 3 -->
+          <div class="col-9 row-image-container">
+            <img
+              src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="row-image"
+              alt="If movie poster"
+            />
+          </div>
+          <p class="col-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+            consequuntur architecto quisquam omnis maxime error odit voluptatum
+            dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
+            provident, obcaecati repellat commodi!
+          </p>
         </div>
       </section>
     </section>
