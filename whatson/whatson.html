@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="whatson.css">
     <title>DF Cinema | Whats On</title>
 </head>
 
@@ -40,7 +41,161 @@
     </header>
     <!-- HEADER ENDS -->
 
-    <section id="focus-area">
+    <section id="focus-area" class="whatson">
+
+        <h1 class="text-right">NOW SHOWING</h1>
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-wrapper" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- SLIDE 1 -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100 fixed-size-img"
+                        src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/if-movie-poster.jpg"
+                        alt="First slide" />
+                    <div class="carousel-caption d-block d-none">
+                        <h5>IF</h5>
+                        <p>Velit laudantium voluptatum nemo obcaecati, maxime autem, sit, necessitatibus exercitationem
+                            iusto
+                            iure quas id quis odit ducimus nesciunt sed quam. Aliquam, natus.</p>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="carousel-item">
+                    <img class="d-block w-100 fixed-size-img"
+                        src="https://m.media-amazon.com/images/M/MV5BODMxNjAwNjY2Ml5BMl5BanBnXkFtZTgwNTQ1NDgwNjE@._V1_.jpg"
+                        alt="Second slide" />
+                    <div class="carousel-caption d-block d-none">
+                        <h5>MINIONS</h5>
+                        <p>Fugiat at, ut, fugit laborum, tenetur quod obcaecati porro autem soluta asperiores eveniet
+                            alias
+                            ducimus! Id, voluptatibus labore obcaecati modi recusandae sit.</p>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 -->
+                <div class="carousel-item">
+                    <img class="d-block w-100 fixed-size-img"
+                        src="https://4kwallpapers.com/images/wallpapers/the-garfield-movie-3840x2160-16355.jpeg"
+                        alt="Third slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>THE GARFIELD MOVIE</h5>
+                        <p>Itaque, in. Iste, consequuntur culpa iure pariatur aliquid eius, exercitationem cumque rem,
+                            inventore
+                            est esse autem! Quaerat aliquam accusantium iusto aut corporis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="h-25 row border round-lg mr-5 p-4 mt-3 text-center">
+                <!-- Row 1 -->
+                <table>
+                    <tr>
+                        <th colspan="2">Opening Times:</th>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <th>Monday</th>
+                        <td>9am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>9am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>9am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>9am - 5pm</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-9 row-image-container row-1-div">
+                <img src="https://images.pexels.com/photos/23932755/pexels-photo-23932755/free-photo-of-yellow-paper-cup-with-popcorn-on-a-cinema-seat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="row-image" alt="If movie poster" />
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm">
+                <div class="row-image-container">
+                    <img src="https://m.media-amazon.com/images/I/91HM6470jLL._AC_UF1000,1000_QL80_.jpg"
+                        class="row-image" alt="Batman poster" />
+                </div>
+            </div>
+            <div class="col-sm d-flex align-items-center justify-content-center mb-5">
+                <h5 class="row mb-5">Batman: Dark Kight Rises </h5>
+            </div>
+            <div class="col-sm d-flex align-items-center justify-content-center flex-column mb-5">
+                <h5 class="row mb-2">Description </h5>
+                <p>Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane. </p>
+            </div>
+
+            <div class="col-sm">
+                <h5 class="row mb-3 ml-4">Screens and Showing Times</h5>
+                <table class="table text-center text-white">
+                    <thead>
+                        <tr>
+                            <th scope="col" >Screen</th>
+                            <th scope="col" colspan="3" class="text-center">Showing Time(s)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Standard</th>
+                            <td>9am</td>
+                            <td>11am</td>
+                            <td>9:30pm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3D</th>
+                            <td>11am</td>
+                            <td>11am</td>
+                            <td>11am</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4DX</th>
+                            <td>1pm</td>
+                            <td>-</td>
+                            <td>11am</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">S Imax</th>
+                            <td>3pm</td>
+                            <td>11am</td>
+                            <td>-</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+            <!-- Row 3 -->
+
+        </div>
+
+
+        </div>
+
 
     </section>
 
