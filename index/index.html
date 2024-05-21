@@ -1,227 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../../styles.css">
-    <style>
-      .carousel-wrapper {
-        height: 24rem;
-        margin-bottom: 12rem;
-      }
 
-      .carousel-wrapper * {
-        max-height: 100%;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Digital Futures Cinema</title>
+</head>
 
-      .fixed-size-img {
-        max-height: 100%;
-        object-fit: cover;
-        width: auto;
-      }
-
-      .row-image-container {
-        height: 12rem;
-        margin-bottom: 8rem;
-      }
-      .row-image {
-        max-height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
-    </style>
-    <title>Digital Futures Cinema</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="https://cdn-icons-png.flaticon.com/128/1101/1101793.png" alt="DF Cinema Logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="/index/index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/whatson/whatson.html">What's On</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/signup/signup.html">Sign Up</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- HEADER ENDS -->
-
-    <section id="focus-area" class="container text-center">
-      <!-- Carousel -->
-      <section id="focus-area" class="container text-center">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide carousel-wrapper"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-9">
-                  <img
-                    class="d-block w-100 fixed-size-img"
-                    src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/if-movie-poster.jpg"
-                    alt="First slide"
-                  />
-                </div>
-                <div
-                  class="col-md-3 d-flex align-items-center justify-content-center"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                  laudantium voluptatum nemo obcaecati, maxime autem, sit,
-                  necessitatibus exercitationem iusto iure quas id quis odit
-                  ducimus nesciunt sed quam. Aliquam, natus.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-9">
-                  <img
-                    class="d-block w-100 fixed-size-img"
-                    src="https://m.media-amazon.com/images/M/MV5BODMxNjAwNjY2Ml5BMl5BanBnXkFtZTgwNTQ1NDgwNjE@._V1_.jpg"
-                    alt="Second slide"
-                  />
-                </div>
-                <div
-                  class="col-md-3 d-flex align-items-center justify-content-center"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat at, ut, fugit laborum, tenetur quod obcaecati porro
-                  autem soluta asperiores eveniet alias ducimus! Id,
-                  voluptatibus labore obcaecati modi recusandae sit.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-9">
-                  <img
-                    class="d-block w-100 fixed-size-img"
-                    src="https://assets-in.bmscdn.com/discovery-catalog/events/et00376330-lvlrzsvnlz-landscape.jpg"
-                    alt="Third slide"
-                  />
-                </div>
-                <div
-                  class="col-md-3 d-flex align-items-center justify-content-center"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque, in. Iste, consequuntur culpa iure pariatur aliquid
-                  eius, exercitationem cumque rem, inventore est esse autem!
-                  Quaerat aliquam accusantium iusto aut corporis.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Row 1 -->
-          <div class="col-9 row-image-container">
-            <img
-              src="https://images.pexels.com/photos/23932755/pexels-photo-23932755/free-photo-of-yellow-paper-cup-with-popcorn-on-a-cinema-seat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              class="row-image"
-              alt="If movie poster"
-            />
-          </div>
-          <p class="col-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-            consequuntur architecto quisquam omnis maxime error odit voluptatum
-            dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
-            provident, obcaecati repellat commodi!
-          </p>
-          <!-- Row 2 -->
-          <p class="col-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-            consequuntur architecto quisquam omnis maxime error odit voluptatum
-            dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
-            provident, obcaecati repellat commodi!
-          </p>
-          <div class="col-9 row-image-container">
-            <img
-              src="https://images.pexels.com/photos/1182291/pexels-photo-1182291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              class="row-image"
-              alt="If movie poster"
-            />
-          </div>
-          <!-- Row 3 -->
-          <div class="col-9 row-image-container">
-            <img
-              src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              class="row-image"
-              alt="If movie poster"
-            />
-          </div>
-          <p class="col-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-            consequuntur architecto quisquam omnis maxime error odit voluptatum
-            dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
-            provident, obcaecati repellat commodi!
-          </p>
-        </div>
-      </section>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="text-white">
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/3128/3128304.png"
-                alt="Facebook"></a>
-            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
-                alt="Twitter"></a>
-            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/174/174855.png"
-                alt="Instagram"></a>
-            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/174/174883.png"
-                alt="YouTube"></a>
-          </div>
+        <a class="navbar-brand" href="#">
+          <img src="https://cdn-icons-png.flaticon.com/128/1101/1101793.png" alt="DF Cinema Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/whatson/whatson.html">What's On</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signup/signup.html">Sign Up</a>
+            </li>
+          </ul>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <p class="text-center">&copy; 2024 Digital Futures Cinema. All rights reserved.</p>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER ENDS -->
+
+  <section id="focus-area" class="container text-center">
+    <!-- Carousel -->
+    <section id="focus-area" class="container text-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide carousel-wrapper" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-9">
+                <img class="d-block w-100 fixed-size-img"
+                  src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/if-movie-poster.jpg"
+                  alt="First slide" />
+              </div>
+              <div class="col-md-3 d-flex align-items-center justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                laudantium voluptatum nemo obcaecati, maxime autem, sit,
+                necessitatibus exercitationem iusto iure quas id quis odit
+                ducimus nesciunt sed quam. Aliquam, natus.
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-9">
+                <img class="d-block w-100 fixed-size-img "
+                  src="../images/Minion_Poster.jpg"
+                  alt="Second slide" />
+              </div>
+              <div class="col-md-3 d-flex align-items-center justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugiat at, ut, fugit laborum, tenetur quod obcaecati porro
+                autem soluta asperiores eveniet alias ducimus! Id,
+                voluptatibus labore obcaecati modi recusandae sit.
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-9">
+                <img class="d-block w-100 fixed-size-img"
+                  src="https://assets-in.bmscdn.com/discovery-catalog/events/et00376330-lvlrzsvnlz-landscape.jpg"
+                  alt="Third slide" />
+              </div>
+              <div class="col-md-3 d-flex align-items-center justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque, in. Iste, consequuntur culpa iure pariatur aliquid
+                eius, exercitationem cumque rem, inventore est esse autem!
+                Quaerat aliquam accusantium iusto aut corporis.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- FOOTER ENDS -->
+
+      <div class="space">
+
+      </div>
 
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="row mb-5">
+        <!-- Row 1 -->
+        <div class="col-12 col-md-9 row-image-container mb-sm-5">
+          <img
+            src="https://images.pexels.com/photos/23932755/pexels-photo-23932755/free-photo-of-yellow-paper-cup-with-popcorn-on-a-cinema-seat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="row-image" alt="If movie poster" />
+        </div>
+        <p class="col-12 col-md-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          consequuntur architecto quisquam omnis maxime error odit voluptatum
+          dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
+          provident, obcaecati repellat commodi!
+        </p>
+      </div>
+
+
+
+
+      <div class="row mb-5">
+        <!-- Row 2 -->
+        <div class="col-12 col-md-9 row-image-container order-md-1">
+          <img
+            src="https://images.pexels.com/photos/1182291/pexels-photo-1182291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="row-image" alt="If movie poster" />
+        </div>
+        <p class="col-12 col-md-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          consequuntur architecto quisquam omnis maxime error odit voluptatum
+          dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
+          provident, obcaecati repellat commodi!
+        </p>
+      </div>
+
+
+
+
+
+
+
+
+      <!-- Row 3 -->
+      <div class="row mb-5">
+        <div class="col-12 col-md-9 row-image-container">
+          <img
+            src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="row-image" alt="If movie poster" />
+        </div>
+        <p class="col-12 col-md-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+          consequuntur architecto quisquam omnis maxime error odit voluptatum
+          dolor iusto? Velit dolor assumenda saepe? Eaque laboriosam harum
+          provident, obcaecati repellat commodi!
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/3128/3128304.png"
+              alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
+              alt="Twitter"></a>
+          <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/174/174855.png"
+              alt="Instagram"></a>
+          <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/174/174883.png"
+              alt="YouTube"></a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <p class="text-center">&copy; 2024 Digital Futures Cinema. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER ENDS -->
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

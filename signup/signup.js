@@ -45,7 +45,7 @@ const emailError = "Email must have an '@' symbol and a '.' symbol!";
 
 // Object - Tracks validation state
 const validationState = {
-  title: false,
+  title: true,
   "first-name": false,
   "last-name": false,
   email: false,
@@ -116,7 +116,20 @@ const checkValidity = () => {
 form.addEventListener("change", (e) => {
   if (!e.target?.id?.startsWith("input")) return;
   inputId = e.target.id.replace("input-", "");
-  if (inputId === "dob" || inputId === "phone") return;
+  if (inputId === "dob" || inputId === "phone" || inputId === "title") return;
   validatorMapping[inputId](e.target.value);
   checkValidity();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdownButton = document.getElementById("dropdown-title-button");
+  const dropdownItems = document.querySelectorAll(
+    "#input-title .dropdown-item"
+  );
+
+  dropdownItems.forEach((item) => {
+    item.addEventListener("click", function () {
+      dropdownButton.textContent = this.textContent;
+    });
+  });
 });

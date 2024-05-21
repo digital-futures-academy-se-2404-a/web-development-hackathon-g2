@@ -7,8 +7,6 @@
 
  .carousel-wrapper {
      max-height: 33rem;
-     min-height: 20rem;
-     height: 33rem;
      margin-bottom: 12rem;
      width: 100%;
      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
@@ -17,8 +15,7 @@
 
  .carousel-wrapper * {
      max-height: 100%;
-    border-radius: 0.5rem;
-    
+     border-radius: 0.5rem;
  }
 
  .fixed-size-img {
@@ -44,7 +41,7 @@
     color: white;
     text-shadow: 1rem 1rem 1rem black;
     height: 35%;
-    width: 50%;
+    max-width: 30rem;
     margin-bottom: 1rem;
 }
 
