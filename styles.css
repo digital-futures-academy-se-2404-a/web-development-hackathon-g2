@@ -17,3 +17,16 @@ header img {
 .navbar-brand {
     max-width: 2.5rem;
 }
+
+
+.social-icon{
+    font-size: 1.5rem;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    margin: 1rem 0.5rem;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+}
