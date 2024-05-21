@@ -12,18 +12,28 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-color: #0a1c3a;
+    color: #fff;
 }
 
 header {
     font-weight: bold;
     font-size: large;
     background-color:#0a1c3a ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 header img {
     max-width: 100%;
     filter: invert(100%);
 }
-
 
 
 .navbar-brand {
